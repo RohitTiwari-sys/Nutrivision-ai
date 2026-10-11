@@ -1,16 +1,117 @@
-# React + Vite
+# 🥗 NutriVision AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered nutrition and fitness tracking web application.
 
-Currently, two official plugins are available:
+NutriVision AI is a web application designed to help users explore food nutrition, understand their eating habits, and track physical activity through a clean, interactive dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project currently focuses on the frontend experience, with AI-powered food analysis and personalized wellness features planned for future development.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Dashboard: View a nutrition overview, calorie summary, and daily activity indicators.
+- Food Scanner: Upload a food image and preview it before analysis.
+- Food Search: Search sample food data and explore estimated calories and macronutrients.
+- Nutrition Overview: Explore calories, protein, carbohydrates, fats, fiber, vitamins,     and minerals.
+- Fitness & Workouts: Browse beginner-friendly workout suggestions and activity summaries.
+- Progress Tracking: View sample weekly activity, goals, and achievements.
+- User Profile: Edit personal details, activity preferences, and wellness goals.
+- Responsive Interface: A dashboard layout designed to adapt to different screen sizes.
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Frontend:React
+- Build Tool: Vite
+- Routing: React Router
+- Styling: CSS
+- Language: JavaScript (JSX)
+- Version Control:Git and GitHub
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Install the following on your computer:
+
+- [Node.js](https://nodejs.org/)
+- npm, which is included with Node.js
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. Clone the repository
+
+git clone https://github.com/RohitTiwari-sys/Nutrivision-ai.git
+
+2. Open the project directory
+
+cd Nutrivision-ai
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+5. Open the local URL** displayed in your terminal, usually:
+
+
+http://localhost:5173/
+
+### Build for Production
+
+To create a production build, run:
+
+npm run build
+
+
+To preview the production build locally:
+
+npm run preview
+
+
+## 📂 Project Structure
+
+Nutrivision-ai/
+├── public/                 # Public assets
+├── src/
+│   ├── assets/             # Images and other assets
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Application pages
+│   ├── App.jsx             # Application routes
+│   ├── index.css           # Global styles
+│   └── main.jsx            # React entry point
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+
+## 🔭 Future Enhancements
+
+- AI-based food recognition from uploaded images.
+- Nutritional estimation with portion-size and ingredient information.
+- Integration with a nutrition database or API.
+- Meal logging and personalized nutrition summaries.
+- User authentication and persistent profile data.
+- Improved wellness recommendations based on individual needs.
+- Food input through voice or text.
+
+These are planned enhancements and are not all implemented in the current version.
+
+## ⚠️ Current Project Status
+
+NutriVision AI is under active development. The current version is a frontend prototype that uses sample nutrition and activity data.
+
+Real AI food analysis, persistent data storage, authentication, and backend integration still need to be implemented. Nutrition estimates and wellness suggestions should not be treated as medical advice.
+
+## 👨‍💻 Author
+
+Rohit Kumar Tiwari
+
+- GitHub: [@RohitTiwari-sys](https://github.com/RohitTiwari-sys)
+
+## 📄 License
+
+No license has been added yet. Unless a license is added to this repository, the project remains under its default copyright protections.
